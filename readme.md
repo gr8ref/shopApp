@@ -1,11 +1,12 @@
 Lets get start
-$ react-native init shopApp
+<div class="highlight highlight-source-shell"><pre>
+$ react-native init shopApp</pre></div>
 
+<div class="highlight highlight-source-shell"><pre>
+$ npm start or $ react-native start</pre></div>
 
-$ npm start or $ react-native start
-
-
-$ react-native run-android or $ react-native run-ios
+<div class="highlight highlight-source-shell"><pre>
+$ react-native run-android or $ react-native run-ios</pre></div>
 
 
 Got this issue on **windows**, but don't need to downgrade node, just as discussed on [stackoverflow](https://stackoverflow.com/a/58199866) just need to change some hashes on  your project:
