@@ -1,7 +1,10 @@
 Lets get start
+$ react-native init shopApp
+$ npm start or $ react-native start
+$ react-native run-android or $ react-native run-ios
 
 
-Got this issue today on **windows**, but don't need to downgrade node, just as discussed on [stackoverflow](https://stackoverflow.com/a/58199866) just need to change some hashes on  your project:
+Got this issue on **windows**, but don't need to downgrade node, just as discussed on [stackoverflow](https://stackoverflow.com/a/58199866) just need to change some hashes on  your project:
 
 > **\node_modules\metro-config\src\defaults\blacklist.js**
 
