@@ -14,13 +14,11 @@ import {Platform, StyleSheet, Text, View, TextInput, TouchableOpacity } from 're
 type Props = {};
 export default class App extends Component<Props> {
 
-  //impostiamo lo stateda per il componente, conterrà i dati
-  //degli input
   state = {
     isLoggedIn: false,
     currentUser: {},
-    email: '',
-    password: '',
+    email: 'refik@umisoft.ba',
+    password: 'secret',
     token: null,
     error: null,
   }
