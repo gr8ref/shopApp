@@ -8,10 +8,15 @@ export function getLoginConfig({ email, password }){
   
     //assemble the Axios Config
     const loginConfig = {
-      url: 'http://localhost:8000/api/login',
+      url: 'http://127.0.0.1:8000/api/login',
       method: 'post',
-      headers: { 'X-Requested-With': 'XMLHttpRequest' },
-      data: axiosData,
+      headers: {'Content-Type': "application/json",
+       'X-Requested-With': 'XMLHttpRequest' },
+      //data: axiosData,
+      body: JSON.stringify({
+        email: email,
+        password: password,
+      }),      
       responseType: 'json',
     }
   
@@ -26,7 +31,7 @@ export function getLoginConfig({ email, password }){
   
       //assemble the Axios Config with token
     return {
-      url: 'http://localhost:8000/api/logout',
+      url: 'http://127.0.0.1:8000/api/logout',
       method: 'get',
       headers: {
         'X-Requested-With': 'XMLHttpRequest',
