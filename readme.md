@@ -1,16 +1,12 @@
 Lets get start
 <div class="highlight highlight-source-shell"><pre>
 $ react-native init shopApp</pre></div>
-
 <div class="highlight highlight-source-shell"><pre>
 $ npm start or $ react-native start</pre></div>
-
 <div class="highlight highlight-source-shell"><pre>
 $ react-native run-android or $ react-native run-ios</pre></div>
-
 <div class="highlight highlight-source-shell"><pre>
 $ npm i react-native-material-ui --save</pre></div>
-
 <div class="highlight highlight-source-shell"><pre>
 $ npm i axios --save</pre></div>
 
