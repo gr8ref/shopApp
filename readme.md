@@ -1,6 +1,10 @@
 Lets get start
 $ react-native init shopApp
+
+
 $ npm start or $ react-native start
+
+
 $ react-native run-android or $ react-native run-ios
 
 
